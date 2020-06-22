@@ -36,9 +36,14 @@ const Home = () => (
         color: pink;
         text-decoration: none;
       }
-      img { height: auto; width: 100%; }
+      img { height: 100%; width: auto; }
       .content {
         padding: 0 32px;
+      }
+      div {
+        display: block;
+        width: 100%;
+        height: 100%;
       }
     `}</style>
   </div>
