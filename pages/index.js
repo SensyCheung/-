@@ -3,11 +3,15 @@ import Head from 'next/head'
 
 const Home = () => (
   <div>
-       <div class="main">
+      <Head>
+        <title>水龙头 - 网购奖励比特币平台</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
+
             <a href="https://app.exinearn.com/invite/ML1TZZ?source=link">
-                <img src={'/exinearn_download.png'} class="download_pic" />
+                <img src={'/exinearn_download.png'}  />
             </a>
-        </div>
+  
 
     <style jsx>{`
       :global(html,body) {
@@ -31,6 +35,13 @@ const Home = () => (
         background-color: #282c34;
         color: white;
       }
+
+      :global(div#__next) {
+        display: block;
+        width: 100%;
+        height: 100%;
+      }
+
 
       a {
         color: pink;
