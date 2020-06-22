@@ -3,9 +3,11 @@ import Head from 'next/head'
 
 const Home = () => (
   <div>
-    <h1>exinEarn</h1>
-
-    <h3>Hooray 🎉 - you've built this with <a href="https://nextjs.org">Next.js</a>!</h3>
+       <div class="main">
+            <a href="https://app.exinearn.com/invite/ML1TZZ?source=link">
+                <img src={'/exinearn_download.png'} class="download_pic" />
+            </a>
+        </div>
 
     <style jsx>{`
       :global(html,body) {
@@ -34,7 +36,7 @@ const Home = () => (
         color: pink;
         text-decoration: none;
       }
-
+      img { height: auto; width: 100%; }
       .content {
         padding: 0 32px;
       }
